@@ -119,6 +119,7 @@ async function SignIn(){
 </template>
 
 <style scoped>
+
  .login {
    background-color: #ffffff;
    height: 80dvh;
@@ -206,4 +207,26 @@ async function SignIn(){
   font-weight: bold;
   cursor: pointer;
  }
+
+ @media screen and (max-width: 490px) {
+    .login {
+      font-size: .8rem;
+      height: 60dvh;
+    }
+    .welcome{
+      font-size: 1rem;
+      height: 1.5rem
+    }
+    hr{
+      margin-top: 2rem;
+    }
+    form{
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .signup{
+      font-size: .8rem;
+    }
+  }
+
 </style>

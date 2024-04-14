@@ -240,5 +240,47 @@ async function SignUp(){
   cursor: pointer;
  }
 
+ @media screen and (max-width: 509px) {
+    .login {
+      font-size: .8rem;
+      height: 60dvh;
+    }
+    .welcome{
+      font-size: 1rem;
+      height: 1.5rem
+    }
+    hr{
+      margin-top: 2rem;
+    }
+    form{
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .signup{
+      font-size: .8rem;
+      margin-bottom: 1rem;
+    }
+  }
+ @media screen and (max-width: 410px) {
+    .login {
+      font-size: .8rem;
+      height: 60dvh;
+    }
+    .welcome{
+      font-size: 1rem;
+      height: 1.5rem
+    }
+    hr{
+      margin-top: 2rem;
+    }
+    form{
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .signup{
+      font-size: .8rem;
+      margin-bottom: 1rem;
+    }
+  }
 
 </style>

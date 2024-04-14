@@ -227,5 +227,13 @@ hr{
     color: #bcbcbc;
 }
 
+@media screen and (max-width: 459px) {
+    .grey{
+        display: none;
+    }
 
+    img{
+        width: 50px !important;
+    }
+  }
 </style>

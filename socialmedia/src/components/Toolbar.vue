@@ -95,4 +95,17 @@ import router from '@/router';
         cursor: pointer;
     }
 
+
+    @media screen and (max-width: 790px) {
+        .search-area{
+            font-size: .8rem;
+        }
+  }
+    @media screen and (max-width: 530px) {
+        .search-area{
+            font-size: .6rem;
+        }
+  }
+
+
 </style>

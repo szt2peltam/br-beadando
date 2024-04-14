@@ -8,16 +8,8 @@
       "displayname": "Admin",
       "thumbnail": "../assets/img/userplaceholder.jpg",
       "bio": "gay"
-    },
-    {
-      "id": "b4bb",
-      "username": "fasz",
-      "email": "fasz@punci.com",
-      "password": "123456",
-      "displayname": "punci",
-      "bio": "",
-      "thumbnail": "../assets/img/userplaceholder.jpg"
     }
+
   ],
   "posts": [
     {
@@ -71,13 +63,6 @@
       "date": "03/04/2024, 18:58:53"
     },
     {
-      "id": "6b9f",
-      "content": "Faszomat bele",
-      "postId": "2",
-      "authorId": "1",
-      "date": "03/04/2024, 19:01:42"
-    },
-    {
       "id": "8369",
       "content": "XDDDDDDDD",
       "postId": "1",
@@ -111,27 +96,6 @@
       "postId": "1",
       "authorId": "1",
       "date": "03/04/2024, 20:33:57"
-    },
-    {
-      "id": "2ccd",
-      "content": "TE FASZ",
-      "postId": "1",
-      "authorId": "1",
-      "date": "03/04/2024, 21:06:15"
-    },
-    {
-      "id": "f17e",
-      "content": "kurva",
-      "postId": "1",
-      "authorId": "1",
-      "date": "03/04/2024, 23:00:44"
-    },
-    {
-      "id": "3f5f",
-      "content": "kurva",
-      "postId": "1",
-      "authorId": "1",
-      "date": "08/04/2024, 17:04:29"
     },
     {
       "id": "0fa3",
@@ -168,6 +132,7 @@
       "authorId": "1",
       "date": "11/04/2024, 23:29:32"
     }
+
   ],
   "postlikes": [
     {
@@ -185,6 +150,13 @@
       "replyid": "23bc",
       "authorid": "1",
       "postid": "1"
+    },
+    {
+      "id": "6cd8",
+      "likerid": "1",
+      "replyid": "8369",
+      "authorid": "1",
+      "postid": "1"
     }
   ],
   "subscriptions": [
@@ -195,10 +167,10 @@
       "id": "8b1a"
     },
     {
-      "id": "7f2a",
+      "id": "c098",
       "userid": "b4bb",
       "subscriberid": "1",
-      "date": "12/04/2024, 00:31:09"
+      "date": "14/04/2024, 22:07:50"
     }
   ]
 }

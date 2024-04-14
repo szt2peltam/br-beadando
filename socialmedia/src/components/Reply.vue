@@ -136,4 +136,19 @@ button{
         display: block;
         
     }
+
+
+    @media screen and (max-width: 700px) {
+        .reply{
+            font-size: .8rem;
+        }
+  }
+    @media screen and (max-width: 479px) {
+        .reply{
+            font-size: .8rem;
+        }
+        .grey{
+            display: none;
+        }
+  }
 </style>

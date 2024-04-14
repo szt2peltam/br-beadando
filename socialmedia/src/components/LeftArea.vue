@@ -57,6 +57,9 @@ function ClearUserStore() {
     </div>
 </template>
 <style scoped>
+
+
+
 .active{
     color: #00A4FF;
 }
@@ -79,5 +82,26 @@ function ClearUserStore() {
     align-items: center;
     cursor: pointer;
 }
+@media screen and (max-width: 700px) {
+    h3{
+        display: none;
+    }
 
+    .left-area-wrapper{
+        position: fixed;
+        bottom: 0;
+        flex-direction: row;
+        width: 100dvw;
+    }
+    .menu{
+        flex-direction: row;
+        height: 2rem;
+        background-color: white;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;	
+        height: 4rem;
+        justify-content: center;
+    }
+  }
 </style>
