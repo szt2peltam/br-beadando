@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@socialsync.com",
+      "password": "admin",
+      "displayname": "Admin",
+      "thumbnail": "../assets/img/userplaceholder.jpg",
+      "bio": "gay"
+    },
+    {
+      "id": "b4bb",
+      "username": "fasz",
+      "email": "fasz@punci.com",
+      "password": "123456",
+      "displayname": "punci",
+      "bio": "",
+      "thumbnail": "../assets/img/userplaceholder.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1",
+      "content": "Content 1",
+      "authorId": "1",
+      "img": "../assets/img/noimage.png",
+      "date": "2022-12-12 12:12:12",
+      "topic": "food"
+    },
+    {
+      "id": "2",
+      "title": "Post 1",
+      "content": "Content 1",
+      "authorId": "1",
+      "img": "../assets/img/noimage.png",
+      "date": "2022-12-12 12:12:12",
+      "topic": "food"
+    },
+    {
+      "id": "3",
+      "title": "Post 1",
+      "content": "Content 1",
+      "authorId": "1",
+      "img": "../assets/img/noimage.png",
+      "date": "2022-12-12 12:12:12",
+      "topic": "food"
+    }
+  ],
+  "replies": [
+    {
+      "id": "1",
+      "content": "Reply 1",
+      "authorId": "1",
+      "postid": "1",
+      "date": "2022-12-12 12:12:12"
+    },
+    {
+      "id": "3945",
+      "content": "asd",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 18:56:14"
+    },
+    {
+      "id": "aae6",
+      "content": "asd",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 18:58:53"
+    },
+    {
+      "id": "6b9f",
+      "content": "Faszomat bele",
+      "postId": "2",
+      "authorId": "1",
+      "date": "03/04/2024, 19:01:42"
+    },
+    {
+      "id": "8369",
+      "content": "XDDDDDDDD",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 20:29:28"
+    },
+    {
+      "id": "122c",
+      "content": "asd",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 20:30:40"
+    },
+    {
+      "id": "23bc",
+      "content": "asd",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 20:31:39"
+    },
+    {
+      "id": "3a7e",
+      "content": "asd",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 20:32:18"
+    },
+    {
+      "id": "13b0",
+      "content": "asd",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 20:33:57"
+    },
+    {
+      "id": "2ccd",
+      "content": "TE FASZ",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 21:06:15"
+    },
+    {
+      "id": "f17e",
+      "content": "kurva",
+      "postId": "1",
+      "authorId": "1",
+      "date": "03/04/2024, 23:00:44"
+    },
+    {
+      "id": "3f5f",
+      "content": "kurva",
+      "postId": "1",
+      "authorId": "1",
+      "date": "08/04/2024, 17:04:29"
+    },
+    {
+      "id": "0fa3",
+      "content": "asd",
+      "postId": "2",
+      "authorId": "1",
+      "date": "11/04/2024, 23:26:55"
+    },
+    {
+      "id": "4073",
+      "content": "asd",
+      "postId": "2",
+      "authorId": "1",
+      "date": "11/04/2024, 23:28:42"
+    },
+    {
+      "id": "b4dc",
+      "content": "XDDD",
+      "postId": "2",
+      "authorId": "1",
+      "date": "11/04/2024, 23:28:57"
+    },
+    {
+      "id": "08ac",
+      "content": "XDDD",
+      "postId": "2",
+      "authorId": "1",
+      "date": "11/04/2024, 23:29:09"
+    },
+    {
+      "id": "ec7f",
+      "content": "ad",
+      "postId": "2",
+      "authorId": "1",
+      "date": "11/04/2024, 23:29:32"
+    }
+  ],
+  "postlikes": [
+    {
+      "id": "3402",
+      "userid": "1",
+      "postid": "3",
+      "date": "11/04/2024, 23:46:23",
+      "authorId": "1"
+    }
+  ],
+  "replylikes": [
+    {
+      "id": "d058",
+      "likerid": "1",
+      "replyid": "23bc",
+      "authorid": "1",
+      "postid": "1"
+    }
+  ],
+  "subscriptions": [
+    {
+      "userid": "1",
+      "subscriberid": "2",
+      "date": "2022-12-12 12:12:12",
+      "id": "8b1a"
+    },
+    {
+      "id": "7f2a",
+      "userid": "b4bb",
+      "subscriberid": "1",
+      "date": "12/04/2024, 00:31:09"
+    }
+  ]
+}
